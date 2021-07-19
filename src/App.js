@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Switch>
-            <Route exact path="https://suryaprasadh.github.io/reactdeploy/">
+            <Route exact path="/">
               <Home />   
             </Route>
             <Route path="/create">
