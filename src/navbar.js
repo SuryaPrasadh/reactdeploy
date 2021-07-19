@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>The Dojo Blog</h1>
             <div className="links">
-                <Link to="https://suryaprasadh.github.io/reactdeploy/">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="/create">New Blog </Link>
                
                 
