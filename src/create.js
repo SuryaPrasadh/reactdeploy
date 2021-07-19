@@ -29,7 +29,7 @@ const CreateList = () => {
 
     return (
         <div className="create">
-            <h1>Add a New Blog</h1>
+            <h1>Add New Blog</h1>
 
             <form onSubmit={handleSubmit}>
                 <label>Blog Title:</label>
