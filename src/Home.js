@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
  
-    const {data:blog,pending,error} = useFetch("http://localhost:3001/blog");
+    const {data:blog,pending,error} = useFetch("https://jsonplaceholder.typicode.com/posts");
    
     
    
