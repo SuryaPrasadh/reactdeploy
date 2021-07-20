@@ -23,7 +23,7 @@ function App() {
             <Route path="/create">
               <CreateList />  
             </Route>      
-            <Route path="/blog/:id">
+            <Route path="/posts/:id">
               < BlogDetails />
             </Route>
           
