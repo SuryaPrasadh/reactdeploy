@@ -14,7 +14,7 @@ const CreateList = () => {
 
         setpending(true);
 
-        fetch("http://localhost:3001/blog",{
+        fetch("https://jsonplaceholder.typicode.com/posts/",{
             method:'POST',
             headers:{"content-type":"application/json"},
             body:JSON.stringify(blog)
