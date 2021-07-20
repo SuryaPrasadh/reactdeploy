@@ -10,7 +10,7 @@ const handleDelete = () =>{
         fetch("https://jsonplaceholder.typicode.com/posts/" + id,{
             method:"DELETE",
            }).then(()=>{
-                history.push("/reactdeploy/");
+                history.push("/");
            })
 }
 
