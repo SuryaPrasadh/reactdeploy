@@ -3,11 +3,11 @@ import useFetch from "./useFetch";
 
 const BlogDetails = () => {
 const {id} = useParams();
-const {data:blogs,error,pending} = useFetch("http://localhost:3001/blog/" + id);
+const {data:blogs,error,pending} = useFetch("https://jsonplaceholder.typicode.com/posts/" + id);
 const history = useHistory();
 
 const handleDelete = () =>{
-        fetch("http://localhost:3001/blog/" + id,{
+        fetch("https://jsonplaceholder.typicode.com/posts/" + id,{
             method:"DELETE",
            }).then(()=>{
                 history.push("/");
